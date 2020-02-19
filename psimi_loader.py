@@ -85,8 +85,7 @@ def psimi_loader(property_file, step):
     ont_keys = mi.keys()
     ont_vals = mi.values()
     ont_repr = mi.__repr__()
-    ont_rel = mi.relationships()
-        
+    ont_rel = mi.relationships()        
     #print("nb mi\t"+str(len(mi)))
     #print("nb terms\t"+str(len(ont_terms)))
     #print("nb relationships\t"+str(len(ont_rel)))
